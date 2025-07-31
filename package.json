@@ -1,0 +1,16 @@
+{
+  "name": "flori-junggesellenabschied-quiz",
+  "version": "1.0.0",
+  "description": "A quiz game for a bachelor party",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server . -p 3000 -o -c-1",
+    "start": "npx http-server . -p 3000 -o -c-1"
+  },
+  "keywords": ["quiz", "game", "bachelor-party"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+} 

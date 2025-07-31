@@ -1,0 +1,33 @@
+{
+  "files.associations": {
+    "*.html": "html"
+  },
+  "emmet.includeLanguages": {
+    "html": "html"
+  },
+  "html.autoClosingTags": true,
+  "html.autoClosingBrackets": "always",
+  "html.format.enable": true,
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapLineLength": 120,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "workbench.colorTheme": "Default Dark+",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Fira Code', 'Consolas', 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [120],
+  "editor.wordWrap": "on",
+  "breadcrumbs.enabled": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontSize": 13
+}
