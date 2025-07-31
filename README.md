@@ -4,9 +4,7 @@ Ein interaktives Quiz-Spiel für einen Junggesellenabschied.
 
 ## 🚀 Live Demo
 
-Das Quiz ist live verfügbar unter: [https://[your-username].github.io/flori-junggesellenabschied-quiz](https://[your-username].github.io/flori-junggesellenabschied-quiz)
-
-*Ersetze `[your-username]` mit deinem GitHub Benutzernamen*
+Das Quiz ist live verfügbar unter: [https://lombold.github.io/flori-jga](https://lombold.github.io/flori-jga)
 
 ## Entwicklungsserver starten
 
@@ -64,7 +62,7 @@ Das Quiz wird automatisch auf GitHub Pages deployed:
 ## 📁 Projektstruktur
 
 ```
-flori-junggesellenabschied-quiz/
+flori-jga/
 ├── index.html              # Hauptdatei mit Quiz-Logik
 ├── package.json            # Projekt-Konfiguration
 ├── README.md              # Diese Datei
