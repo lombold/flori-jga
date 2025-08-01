@@ -24,36 +24,42 @@
       padding: 2rem;
       border-radius: 16px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-      max-width: 500px;
-      width: 90%;
+      width: 300px;
+      max-width: 100vw;
       text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      overflow: hidden;
+      height: auto;
+      min-height: auto;
     }
 
     .splash-screen {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       cursor: pointer;
-      width: 408px;
-      height: 613px;
-      background-image: url('assets/splashscreen.png');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      z-index: 9999;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.1);
+    }
+
+    .splash-image {
+      width: 100%;
+      height: auto;
+      max-height: 100vh;
+      object-fit: contain;
+      display: block;
     }
 
     .splash-text {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50px);
       font-size: 2rem;
       font-weight: 600;
-      color: #667eea;
+      color: white;
       text-align: center;
       user-select: none;
       animation: pulse 2s ease-in-out infinite;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+      z-index: 10;
+      display: block;
+      text-align: center;
+      width: 100%;
     }
 
     @keyframes pulse {
@@ -257,6 +263,7 @@
 <body>
   <div class="quiz-container">
     <div id="splash-screen" class="splash-screen">
+      <img src="assets/splashscreen.png" alt="Splash Screen" class="splash-image" />
       <div class="splash-text">Berühren zum Starten</div>
     </div>
     <div id="quiz-content" class="quiz-content hidden">
